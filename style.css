@@ -1,0 +1,158 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+}
+
+
+#header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(images/Picsart_25-02-13_13-55-03-477.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-text {
+    
+        display: flex;        
+        justify-content: flex-start; 
+        align-items: center;  
+        height: 100vh;        
+}
+.header-text h1{ 
+    text-align: left;
+    padding-right: 50%;
+
+}
+.header-text span {
+    color: #ff9800;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+
+#about {
+    padding: 80px 0;
+    background: #1e1e1e;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 32px;
+    color: #ff9800;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-col-1 img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+.about-col-2 {
+    max-width: 600px;
+    padding: 20px;
+    text-align: left;
+}
+
+
+#skills {
+    padding: 80px 0;
+    background: #252525;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills-box {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+}
+
+.skills-box h2 {
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+
+.skills-box ul {
+    list-style: none;
+}
+
+
+#contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact a {
+    color: #ff9800;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
